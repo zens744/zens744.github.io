@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zens | Software Development & Cybersecurity</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <meta name="description"
+        content="Zens - Software Developer specializing in Java, Python, and Cybersecurity solutions.">
+</head>
+
+<body>
+    <!-- Modern Preloader -->
+    <div id="preloader">
+        <div class="loader-content">
+            <div class="loader-logo">NETWORK<span>_</span></div>
+            <div class="loader-bar">
+                <div class="loader-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Background Particles -->
+    <canvas id="particle-canvas"></canvas>
+
+    <div class="cursor-glow"></div>
+
+    <nav>
+        <div class="logo">NETWORK<span>_</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Giriş</a></li>
+            <li><a href="#about">Hakkında</a></li>
+            <li><a href="#projects">Projeler</a></li>
+        </ul>
+        <div class="nav-contact">
+            <a href="mailto:admin@starnetwork.com" class="btn-contact">Contact.</a>
+        </div>
+    </nav>
+
+    <header id="home">
+        <div class="hero-content">
+            <div class="line-decor"></div>
+            <h1>Software Dev & <span class="highlight">Cybersecurity</span></h1>
+            <p>Java ve Python ile yüksek performanslı backend sistemleri ve otomasyonlar geliştiriyorum.</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn-corp primary">PROJELER</a>
+                <a href="#about" class="btn-corp secondary">HAKKIMDA</a>
+            </div>
+        </div>
+
+        <div class="discord-widget">
+            <div class="discord-card advanced">
+                <!-- Discord Banner -->
+                <div class="discord-banner" id="discord-banner">
+                    <!-- Right-side top badges (Optional Edit Profile / actions) -->
+                </div>
+
+                <div class="discord-profile-header">
+                    <!-- Avatar & Status -->
+                    <div class="discord-avatar-container">
+                        <img id="discord-avatar" src="avatar.jpg" alt="Discord Avatar" class="discord-avatar">
+                        <div id="discord-status-indicator" class="status-indicator offline"></div>
+                    </div>
+                </div>
+
+                <div class="discord-body">
+                    <div class="discord-header-text">
+                        <span class="discord-name" id="discord-name">zZens</span>
+                        <div class="discord-subtext">
+                            <span class="discord-tag" id="discord-tag">zens._7 • psikoyz</span>
+                            <div class="discord-badges-advanced">
+                                <!-- Default badges shown in screenshot -->
+                                <div class="adv-badge" title="Nitro">
+                                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm3.5 13l-3.5-2.5L8.5 15V9.5L12 12l3.5-2.5V15z" fill="#ff73fa"/>
+                                    </svg>
+                                </div>
+                                <div class="adv-badge" title="Server Booster">
+                                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12 2L3 7v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-9-5zm0 18c-3.75-1-6.5-4.66-6.5-8.5V8.53l6.5-3.6 6.5 3.6V11.5c0 3.84-2.75 7.5-6.5 8.5z" fill="#f47fff"/>
+                                        <path d="M12 7l-3 3h2v4h2v-4h2l-3-3z" fill="#f47fff"/>
+                                    </svg>
+                                </div>
+                                <div class="adv-badge" title="HypeSquad Bravery">
+                                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12 2L4 5v6.09c0 5.05 3.41 9.76 8 10.91 4.59-1.15 8-5.86 8-10.91V5l-8-3zm0 15c-3.32-.82-5.78-3.92-5.78-7.27V6.52l5.78-2.16 5.78 2.16v3.21c0 3.35-2.46 6.45-5.78 7.27z" fill="#9b84ee"/>
+                                        <circle cx="12" cy="11" r="3" fill="#9b84ee"/>
+                                    </svg>
+                                </div>
+                                <div class="adv-badge" title="Active Developer">
+                                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M19.14,12.94c0.04-0.3,0.06-0.61,0.06-0.94c0-0.32-0.02-0.64-0.06-0.94l2.03-1.58c0.18-0.14,0.23-0.41,0.12-0.61 l-1.92-3.32c-0.12-0.22-0.37-0.29-0.59-0.22l-2.39,0.96c-0.5-0.38-1.03-0.7-1.62-0.94L14.4,2.81c-0.04-0.24-0.24-0.41-0.48-0.41 h-3.84c-0.24,0-0.43,0.17-0.47,0.41L9.25,5.35C8.66,5.59,8.12,5.92,7.63,6.29L5.24,5.33c-0.22-0.08-0.47,0-0.59,0.22L2.73,8.87 C2.62,9.08,2.66,9.34,2.86,9.48l2.03,1.58C4.84,11.36,4.8,11.69,4.8,12s0.02,0.64,0.06,0.94l-2.03,1.58 c-0.18,0.14-0.23,0.41-0.12,0.61l1.92,3.32c0.12,0.22,0.37,0.29,0.59,0.22l2.39-0.96c0.5,0.38,1.03,0.7,1.62,0.94l0.36,2.54 c0.05,0.24,0.24,0.41,0.48,0.41h3.84c0.24,0,0.44-0.17,0.47-0.41l0.36-2.54c0.59-0.24,1.13-0.56,1.62-0.94l2.39,0.96 c0.22,0.08,0.47,0,0.59-0.22l1.92-3.32c0.12-0.22,0.07-0.49-0.12-0.61L19.14,12.94Z M12,15.6c-1.98,0-3.6-1.62-3.6-3.6 s1.62-3.6,3.6-3.6s3.6,1.62,3.6,3.6S13.98,15.6,12,15.6z" fill="#43b581"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="discord-divider"></div>
+
+                    <div class="discord-section">
+                        <p class="discord-bio" id="discord-custom-status">
+                            <a href="https://guns.lol/zens1337" target="_blank"
+                                class="bio-link">https://guns.lol/zens1337</a>
+                        </p>
+                    </div>
+
+                    <div class="discord-section">
+                        <h3 class="discord-section-title">Şu Tarihten Beri Üye:</h3>
+                        <p class="discord-text">31 Ara 2023</p>
+                    </div>
+
+                    <div class="discord-section">
+                        <h3 class="discord-section-title">Bağlantılar</h3>
+                        <div class="discord-connections">
+                            <div class="connection-item">
+                                <img src="https://cdn.simpleicons.org/github/ffffff" alt="GitHub" class="conn-icon">
+                                <span class="conn-name">zens744</span>
+                                <span class="conn-arrow">↗</span>
+                            </div>
+                            <div class="connection-item">
+                                <img src="https://cdn.simpleicons.org/leagueoflegends/ffffff" alt="LoL"
+                                    class="conn-icon">
+                                <span class="conn-name">zens#00777</span>
+                                <span class="conn-arrow">↗</span>
+                            </div>
+                            <div class="connection-item">
+                                <img src="https://cdn.simpleicons.org/riotgames/ffffff" alt="Riot" class="conn-icon">
+                                <span class="conn-name">zens#00777</span>
+                                <span class="conn-arrow">↗</span>
+                            </div>
+                            <div class="connection-item">
+                                <img src="https://cdn.simpleicons.org/spotify/1ed760" alt="Spotify" class="conn-icon">
+                                <span class="conn-name">zens..</span>
+                                <span class="conn-arrow">↗</span>
+                            </div>
+                            <div class="connection-item">
+                                <img src="https://cdn.simpleicons.org/tiktok/ffffff" alt="TikTok" class="conn-icon">
+                                <span class="conn-name">zens.7777</span>
+                                <span class="conn-arrow">↗</span>
+                            </div>
+                            <div class="connection-item">
+                                <img src="https://cdn.simpleicons.org/x/ffffff" alt="X" class="conn-icon">
+                                <span class="conn-name">Zens788126</span>
+                                <span class="conn-arrow">↗</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Dynamic Presence Info -->
+                    <div class="discord-presence" id="discord-presence" style="display: none;">
+                        <div class="discord-divider"></div>
+                        <h3 class="discord-section-title" id="presence-title">PLAYING A GAME</h3>
+                        <div class="presence-content">
+                            <img id="presence-image" src="" alt="Activity Image" class="presence-image">
+                            <div class="presence-details">
+                                <div id="presence-name" class="presence-bold">VS Code</div>
+                                <div id="presence-details-text" class="discord-text">Editing index.html</div>
+                                <div id="presence-state" class="discord-text">Line 42</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text">
+                    <span class="section-tag">// ABOUT ME</span>
+                    <h2>My Core <span class="highlight">Focus Areas</span></h2>
+                    <p>Merhaba Ben Zens. 16 yaşında bir geliştiriciyim. 2 yıldır Java ve Python dilleriyle aktif
+                        projeler geliştiriyorum.
+                        Sunucu mimarileri ve otomasyon botları tasarlıyorum.</p>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <strong>Minecraft Architecture</strong>
+                            Java ile yüksek performanslı sunucu eklentileri ve özel Spigot API çözümleri hazırlıyorum.
+                        </div>
+                        <div class="skill-item">
+                            <strong>Python & Automation</strong>
+                            Topluluk yönetimi, özel API entegrasyonları ve gelişmiş Discord botları tasarlıyorum.
+                        </div>
+                        <div class="skill-item">
+                            <strong>Cybersecurity</strong>
+                            Sistem güvenliği, ağ analizi ve olası zafiyetlerin giderilmesi üzerine çalışıyorum.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// PROJECTS</span>
+                <h2 class="section-title">Selected Works</h2>
+            </div>
+            <div class="project-grid">
+                <!-- Star Network -->
+                <div class="project-card-corp">
+                    <div class="project-meta">2026 - PRESENT</div>
+                    <h3>Star Network</h3>
+                    <p>Titanyum PvP Sunucusu.</p>
+                    <div class="tags">JAVA • SPIGOT • MINECRAFT</div>
+                </div>
+                <!-- Discord Development -->
+                <div class="project-card-corp">
+                    <div class="project-meta">CURRENT</div>
+                    <h3>Python & Automation</h3>
+                    <p>Gelişmiş moderasyon araçları, özel topluluk yönetimi çözümleri ve API entegrasyonları.</p>
+                    <div class="tags">PYTHON • DISCORD.PY • API</div>
+                </div>
+                <!-- Loriax -->
+                <div class="project-card-corp archive">
+                    <div class="project-meta">2024 - 2025</div>
+                    <h3>Loriax Network</h3>
+                    <p>Titanyum PvP Sunucusu.</p>
+                    <div class="tags">JAVA • SPIGOT • MINECRAFT</div>
+                </div>
+            </div>
+
+            <!-- GitHub Dinamik Repolar -->
+            <div class="section-header" style="margin-top: 5rem;">
+                <span class="section-tag">// OPEN SOURCE</span>
+                <h2 class="section-title">GitHub Repositories</h2>
+            </div>
+            <div class="project-grid" id="github-repos">
+                <!-- Yükleniyor durumu -->
+                <div class="project-card-corp archive" style="text-align: center; grid-column: 1 / -1;">
+                    <p>Projeler GitHub'dan çekiliyor...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-bottom">
+                <div class="footer-logo">NETWORK<span>_</span></div>
+                <div class="footer-info">
+                    <p>&copy; 2026 Zens. Tüm hakları saklıdır.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
